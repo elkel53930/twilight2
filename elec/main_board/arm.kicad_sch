@@ -7046,7 +7046,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 82.55 200.66 270)
+		(at 82.55 200.66 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7054,7 +7055,7 @@
 		(dnp no)
 		(uuid "4061d2ad-45cb-43ce-aa5a-731f14fc650e")
 		(property "Reference" "C36"
-			(at 83.566 203.962 90)
+			(at 81.534 203.962 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7063,7 +7064,7 @@
 			)
 		)
 		(property "Value" "GRM033R61A104KE15D"
-			(at 90.17 196.85 90)
+			(at 74.93 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7091,7 +7092,7 @@
 			)
 		)
 		(property "Description" "0.1uF 10V X5R 0603"
-			(at 85.344 197.866 90)
+			(at 79.756 197.866 90)
 			(effects
 				(font
 					(size 1.27 1.27)
