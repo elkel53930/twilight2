@@ -85,8 +85,19 @@
 		(layer "F.SilkS")
 		(uuid "132900dd-342f-4b0f-ad25-9585b63f5205")
 	)
+	(fp_circle
+		(center -3 -4)
+		(end -2.8 -4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "119100b1-17d1-4583-86ed-7707b42bb756")
+	)
 	(fp_text user "C"
-		(at -1.27 -1 0)
+		(at 1.27 -5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "b5ec6129-82f2-4745-9546-b9326f6936af")
@@ -98,7 +109,7 @@
 		)
 	)
 	(fp_text user "E"
-		(at 1.27 -1 0)
+		(at -1.27 -5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "f6dad77c-61a2-444b-9be9-923b07227a27")

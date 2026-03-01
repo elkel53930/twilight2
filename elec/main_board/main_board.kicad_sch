@@ -96,6 +96,12 @@
 		(uuid "29cbb27c-0a3c-419e-baee-4d888a389279")
 	)
 	(junction
+		(at 231.14 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61394ad0-5500-43b4-9643-d23a825fc3be")
+	)
+	(junction
 		(at 198.12 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -116,6 +122,16 @@
 			(type default)
 		)
 		(uuid "03124650-45d2-49a2-8b7c-65a5bd0782e6")
+	)
+	(wire
+		(pts
+			(xy 231.14 85.09) (xy 254 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2688de67-e92a-4762-8908-7b820afb66fb")
 	)
 	(wire
 		(pts
@@ -166,6 +182,16 @@
 			(type default)
 		)
 		(uuid "6ed7f91f-87ef-494d-86a4-19aff94560aa")
+	)
+	(wire
+		(pts
+			(xy 231.14 85.09) (xy 231.14 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dbdddbd-63df-45df-899a-7c2598ed7dcc")
 	)
 	(wire
 		(pts
@@ -289,7 +315,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 85.09) (xy 254 85.09)
+			(xy 198.12 85.09) (xy 231.14 85.09)
 		)
 		(stroke
 			(width 0)
@@ -589,6 +615,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "+BATT" input
+			(at 231.14 96.52 90)
+			(uuid "0f9ab610-6b75-4bca-871f-281eec9e93a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
